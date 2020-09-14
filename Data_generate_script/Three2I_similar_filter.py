@@ -5,6 +5,7 @@ import numpy as np
 import shutil
 import argparse
 
+# this is to filter questions using similar objects
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-pathread',type=str,default = '/home/yfx/Spare3D/Data_not_touch/test_out_t2i_filt', help='file or folder to be processed.')

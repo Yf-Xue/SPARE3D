@@ -5,6 +5,8 @@ import shutil
 import numpy as np
 import argparse
 
+# this code is to sort and delet symmetric objects as it might affect training 
+# user can choose strictness in -rule_out
 parser = argparse.ArgumentParser()
 parser.add_argument('-pathread',type=str,default = '/home/yfx/Spare3D/Data_not_touch/test_out_I2P', help='file or folder to be processed.')
 parser.add_argument('-pathwrite',type=str,default = '/home/yfx/Spare3D/Data_not_touch/test_out_I2P_filt', help='file or folder to write.')

@@ -5,6 +5,8 @@ import shutil
 import argparse
 import numpy as np
 
+# this code is to filter questions having same answer in Three2I task
+# old dataset will be kept and result after filtering will be put in -pathwrite
 parser = argparse.ArgumentParser()
 parser.add_argument('-pathread',type=str,default = '/home/yfx/Spare3D/Data_not_touch/test_code1', help='file or folder to be processed.')
 parser.add_argument('-pathwrite',type=str,default = '/home/yfx/Spare3D/Data_not_touch/test_out2', help='file or folder to write.')
